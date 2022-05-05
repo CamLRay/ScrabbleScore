@@ -10,3 +10,6 @@
 /Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/obj/Debug/net5.0/Scrabble.dll
 /Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/obj/Debug/net5.0/ref/Scrabble.dll
 /Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/obj/Debug/net5.0/Scrabble.pdb
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/bin/Debug/net5.0/Scrabble.runtimeconfig.json
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/bin/Debug/net5.0/Scrabble.runtimeconfig.dev.json
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/obj/Debug/net5.0/Scrabble.genruntimeconfig.cache

@@ -40,7 +40,8 @@ namespace NumberToWords
       {1000, "thousand"}, 
       {1000000, "million"},
       {1000000000, "billion"},
-      {1000000000000, "trillion"}};
+      {1000000000000, "trillion"},
+      {1000000000000000,"quadrillion"}};
       
       // 1,100,101 one million one hundred thousand one hundred one
 
@@ -65,7 +66,7 @@ namespace NumberToWords
       }
       return numberString;
     }
-// 100,000,121
+// 1001
     public static string LargeNumberTranslator(long number)
     {
       List<string> stringList = new List<string>() {};
@@ -73,24 +74,27 @@ namespace NumberToWords
       {
         return "zero";
       }
+      else if (number < 100)
+      {
+        return NumberTranslator(number);
+      }
       for (int i = _FoldDigitDictionary.Count -1; i >= 0; i--)
       {
-        if(number >= _FoldDigitDictionary.ElementAt(i).Key)
+        long dictKey = _FoldDigitDictionary.ElementAt(i).Key;
+        if(number >= dictKey)
         {
-          if(number/(_FoldDigitDictionary.ElementAt(i).Key) >= 100){
-            long tempNum = number/(_FoldDigitDictionary.ElementAt(i).Key);
+          if(number/(dictKey) >= 100){
+            long tempNum = number/(dictKey);
             stringList.Add(NumberTranslator(tempNum/100) + " hundred");
             stringList.Add(NumberTranslator(tempNum%100));
           }
-          stringList.Add(NumberTranslator(number/_FoldDigitDictionary.ElementAt(i).Key));
+          stringList.Add(NumberTranslator(number/dictKey));
           stringList.Add(_FoldDigitDictionary.ElementAt(i).Value);
-          stringList.Add(NumberTranslator(number%(_FoldDigitDictionary.ElementAt(i).Key)));
-          number%=(_FoldDigitDictionary.ElementAt(i).Key);
-        }
-        else {
-          stringList.Add(NumberTranslator(number));
+          stringList.Add(NumberTranslator(number%(dictKey)));
+          number%=(dictKey);
         }
       }
+  
       string numberString = "";
       foreach(string word in stringList)
       {
