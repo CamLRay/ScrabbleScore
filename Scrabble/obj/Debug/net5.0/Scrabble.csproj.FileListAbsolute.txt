@@ -1,0 +1,15 @@
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/bin/Debug/net5.0/Scrabble.deps.json
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/bin/Debug/net5.0/Scrabble.dll
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/bin/Debug/net5.0/ref/Scrabble.dll
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/bin/Debug/net5.0/Scrabble.pdb
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/obj/Debug/net5.0/Scrabble.csproj.AssemblyReference.cache
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/obj/Debug/net5.0/Scrabble.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/obj/Debug/net5.0/Scrabble.AssemblyInfoInputs.cache
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/obj/Debug/net5.0/Scrabble.AssemblyInfo.cs
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/obj/Debug/net5.0/Scrabble.csproj.CoreCompileInputs.cache
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/obj/Debug/net5.0/Scrabble.dll
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/obj/Debug/net5.0/ref/Scrabble.dll
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/obj/Debug/net5.0/Scrabble.pdb
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/bin/Debug/net5.0/Scrabble.runtimeconfig.json
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/bin/Debug/net5.0/Scrabble.runtimeconfig.dev.json
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble/obj/Debug/net5.0/Scrabble.genruntimeconfig.cache
