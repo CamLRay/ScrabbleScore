@@ -98,3 +98,6 @@
 /Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble.Tests/obj/Debug/net5.0/ref/Scrabble.Test.dll
 /Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble.Tests/obj/Debug/net5.0/Scrabble.Test.pdb
 /Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble.Tests/obj/Debug/net5.0/Scrabble.Test.genruntimeconfig.cache
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble.Tests/bin/Debug/net5.0/Scrabble.deps.json
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble.Tests/bin/Debug/net5.0/Scrabble.runtimeconfig.json
+/Users/jamesfox/Desktop/Epicodus/ScrabbleScore.Solution/Scrabble.Tests/bin/Debug/net5.0/Scrabble.runtimeconfig.dev.json

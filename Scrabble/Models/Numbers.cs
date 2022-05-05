@@ -43,9 +43,6 @@ namespace NumberToWords
       {1000000000000, "trillion"},
       {1000000000000000,"quadrillion"}};
       
-      // 1,100,101 one million one hundred thousand one hundred one
-
-// 1121
     public static string NumberTranslator(long number)
     {
       string numberString = "";
@@ -66,10 +63,13 @@ namespace NumberToWords
       }
       return numberString;
     }
-// 1001
     public static string LargeNumberTranslator(long number)
     {
       List<string> stringList = new List<string>() {};
+      if(number < 0){
+        stringList.Add("negative");
+        number = Math.Abs(number);
+      }
       if(number == 0)
       {
         return "zero";
@@ -94,7 +94,6 @@ namespace NumberToWords
           number%=(dictKey);
         }
       }
-  
       string numberString = "";
       foreach(string word in stringList)
       {
